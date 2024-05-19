@@ -211,7 +211,7 @@ a {
   font-weight: 600;
   margin: 1rem 0;
   outline: 0;
-  padding: 2rem 3rem;
+  padding: 2rem 4vw;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
@@ -302,6 +302,7 @@ a {
   border: 0;
   flex-grow: 1;
   padding: 1.5rem 2rem;
+  width: 0;
 }
 
 .input-group .btn {
@@ -651,7 +652,7 @@ a {
 }
 
 .container {
-  max-width: 100%;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
@@ -661,7 +662,7 @@ a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 0 1rem;
+  padding: 1rem;
   align-items: center;
 }
 
@@ -760,7 +761,7 @@ a {
 
 .block-domain__prices {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 6rem);
   font-size: 2rem;
   font-weight: 600;
@@ -776,9 +777,6 @@ a {
 }
 
 /* Plans Block */
-.block-plans {
-  margin: 0 15rem 0 15rem;
-}
 
 .block-plans .grid {
   gap: 8rem 4rem;
@@ -786,7 +784,7 @@ a {
 
 .block-plans .card {
   max-width: 500px;
-  margin: 0;
+  margin: 0 auto;
 }
 
 /* Features*/
