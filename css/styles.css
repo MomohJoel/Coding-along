@@ -8,7 +8,7 @@
   --color-body: #918ca4;
   --color-body-darker: #5c5577;
   --color-border: #ccc;
-  --border-radius: 30px;
+  --border-radius: 25px;
 }
 
 *,
@@ -133,7 +133,7 @@ a {
 
 @media screen and (min-width: 1024px) {
   .badge {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .badge--small {
